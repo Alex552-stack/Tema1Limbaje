@@ -1,0 +1,10 @@
+{
+  "Productions": {
+    "E": ["E+T", "T"],
+    "T": ["T*F", "F"],
+    "F": ["a", "(E)"]
+  },
+  "NonTerminals": ["E", "T", "F"],
+  "Terminals": ["a", "+", "*", "(", ")"],
+  "StartSymbol": "E"
+}
